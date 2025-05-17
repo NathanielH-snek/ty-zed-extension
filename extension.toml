@@ -1,0 +1,7 @@
+id = "ty"
+name = "Ty LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Nathaniel Holden <nholden_ds@icloud.com>"]
+description = "Astral ty lsp extension for python"
+repository = "https://github.com/your-name/my-zed-extension"
