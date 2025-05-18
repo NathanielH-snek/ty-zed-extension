@@ -1,6 +1,11 @@
 [package]
 name = "ty-zed-extension"
-version = "0.1.0"
-edition = "2021"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+path = "src/ty_lsp.rs"
+crate-type = ["cdylib"]
 
 [dependencies]
+zed_extension_api = "^0.5.0"
